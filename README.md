@@ -5,6 +5,8 @@
 [![GitHub Fork](https://img.shields.io/github/forks/mazipan/awesome-vue-list.svg?maxAge=3600)](https://github.com/mazipan/awesome-vue-list/network/members) 
 [![GitHub Star](https://img.shields.io/github/stars/mazipan/awesome-vue-list.svg?maxAge=3600)](https://github.com/mazipan/awesome-vue-list/stargazers) 
 
+## A curated list of awesome things related to Vue.js base on awesome-vue repository
+
 <p align="center">
   <br>
   <img width="400" src="https://github.com/vuejs/awesome-vue/raw/master/logo.svg?sanitize=true" alt="logo of vue-awesome repository">
@@ -12,8 +14,8 @@
   <br>
 </p>
 
-## A curated list of awesome things related to Vue.js base on awesome-vue repository
-
+## Homepage
+https://mazipan.github.io/awesome-vue-list/
 
 ## Credit 
 
