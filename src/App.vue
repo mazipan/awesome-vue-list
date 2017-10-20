@@ -15,8 +15,8 @@
           A curated list of awesome things related to Vue.js base on awesome-vue repository
         </h2>
         <a class="button is-primary is-inverted is-outlined" 
-            href="https://github.com/mazipan/awesome-vue-list/issues">
-            Add new awesome thing
+            href="https://github.com/mazipan/awesome-vue-list/issues/new">
+            Add New Item
         </a>
       </div>
     </div>
@@ -46,41 +46,24 @@
       </div>
 
       <div class="columns is-centered" v-for="item in filteredList" :key="item.name">
-        <div class="column is-8">
-          
-          <div class="card">
-            <header class="card-header">
-              <div class="card-header-title" 
-                    v-html="highlightText(item.name, searchText)">                
-              </div>
-            </header>
-            <div class="card-content">
-              <div class="content">
-                
-                
-                <p class="title is-4" v-if="item.description" 
-                   v-html="highlightText(item.description, searchText)">
-                </p>
-                <p class="title is-4" v-if="!item.description">{{item.name}}</p>
-
-                <p class="subtitle is-6" v-if="item.author">Author {{item.author}}</p>
-                
-
-                Link : <a :href="item.link" v-if="item.link" target="_blank">
-                  <span class="icon has-text-info">
-                    <i class="fa fa-external-link"></i>
-                  </span>
-                </a>
-
-                <div class="tags" v-if="item.group">
-                  <span class="tag is-primary" v-if="item.groupParent">{{item.groupParent.groupName}}</span>
-                  <span class="tag is-info">{{item.groupName}}</span>
-                </div>
-
-              </div>
-            </div>
+        <div class="column is-8 item">
+          <div class="item__block">
+            <a :href="item.link" v-if="item.link" target="_blank">
+              <i class="fa fa-github"></i>&nbsp;
+            </a>
+            
+            <span v-html="highlightText(item.name, searchText)"></span>
           </div>
+          <div v-html="highlightText(item.description, searchText)" v-if="item.description"></div>
           
+          <div class="tags" v-if="item.group">
+            <span class="tag is-primary" v-if="item.groupParent">
+              {{item.groupParent.groupName}}
+            </span>
+            <span class="tag is-info">
+              {{item.groupName}}
+            </span>
+          </div>          
         </div>
       </div>
     </div>
@@ -88,8 +71,8 @@
 </template>
 
 <script>
-import groups from './awesome-vue-group.js'
-import items from './awesome-vue.js'
+import groups from '../data/groups.js'
+import items from '../data/components.js'
 
 export default {
   name: 'app',
@@ -141,7 +124,7 @@ export default {
       }
       var iQuery = new RegExp(pregQuote(query), 'ig')
       return words.toString().replace(iQuery, function (matchedTxt, a, b) {
-        return ('<b class=\'has-text-info\'>' + matchedTxt + '</b>')
+        return ('<b class=\'z\'>' + matchedTxt + '</b>')
       })
     }
   }

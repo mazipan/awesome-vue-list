@@ -2,77 +2,6 @@
 export default {
   name: 'items',
   items: [
-    // #resources
-    // - #official-resources
-    {name: 'Official Guide', group: 'official-resources', link: 'http://vuejs.org/guide/'}, 
-    {name: 'API Reference', group: 'official-resources', link: 'http://vuejs.org/api/'}, 
-    {name: 'GitHub Repo', group: 'official-resources', link: 'https://github.com/vuejs/vue'}, 
-    {name: 'Release Notes', group: 'official-resources', link: 'https://github.com/vuejs/vue/releases'}, 
-
-    // - #external-resources    
-    {name: 'Vue.js資料まとめ(for japanese)', group: 'external-resources', link: 'https://gist.github.com/hashrock/f575928d0e109ace9ad0', author: '@hashrock'},
-    {name: 'Vue.js Newsletter', group: 'external-resources', link: 'http://vue-newsletter.com/', description: 'Weekly dose of handpicked Vue.js news'},
-    {name: 'Vue.js Tips', group: 'external-resources', link: 'http://vuetips.com', description: 'Tips to become a better Vue.js developer'},
-    {name: 'Vue.js Wikipedia', group: 'external-resources', link: 'https://en.wikipedia.org/wiki/Vue.js'},
-    {name: 'Vue.js Radar', group: 'external-resources', link: 'https://www.vuejsradar.com', description: 'Curated newsletter + site covering new Vue.js releases/contributions.'},
-
-    // #job-portal
-    {name: 'Vue.js Jobs - VueJobs', group: 'job-portal', link: 'https://vuejobs.com/', description:  'A Vue.js job portal to hire or get hired for all your Vue.js jobs.'},
-    
-    // #community
-    {name: 'Twitter', group: 'community', link: 'https://twitter.com/vuejs'}, 
-    {name: 'Official Forum', group: 'community', link: 'http://forum.vuejs.org/'}, 
-    {name: 'vue-requests', group: 'community', link: 'https://github.com/vuejs/vue-requests', description: 'Request a Vue.js module you wish existed or get ideas for modules'}, 
-    {name: 'VueJS Iran - Telegram Channel & group (group link available in channel bio)', group: 'community', link: 'https://telegram.me/vue_js'}, 
-    {name: 'vueslack - 1300+ registered users worldwide', group: 'community', link: 'https://vueslack.com/'}, 
-    {name: 'Vue Land - Discord chat server', group: 'community', link: 'https://vue-land.js.org/'}, 
-    {name: 'VueJS Russia - Telegram Group [Russian]', group: 'community', link: 'https://t.me/vuejs_ru'}, 
-    {name: 'VueJS Viet Nam - Facebook group', group: 'community', link: 'https://www.facebook.com/groups/vuejsvietnam/'},
-    {name: 'VueJS Spanish - Slack Group', group: 'community', link: 'https://slack.vue-es.org/'}, 
-    {name: 'VueJS Korean - Slack Group', group: 'community', link: 'https://vuejs-korea.signup.team/'}, 
-    {name: 'VueJS Thailand - Facebook Group', group: 'community', link: 'https://www.facebook.com/groups/VuejsThailand/'},
-    {name: 'VueJS Brasil - Telegram Group [Portuguese]', group: 'community', link: 'https://t.me/vuejsbrasil'}, 
-    {name: 'VueJS Brasil - Facebook Page [Portuguese]', group: 'community', link: 'https://www.facebook.com/vuejsbrasil/'}, 
-    {name: 'VueJS Brasil - Facebook Group [Portuguese]', group: 'community', link: 'https://www.facebook.com/groups/vuejsbr/'}, 
-
-    // #conference
-    {name: 'VueConf', group: 'conferences', link: 'http://conf.vuejs.org'}, 
-    {name: 'Vue.js London', group: 'conferences', link: 'http://vuejs.london'}, 
-
-    // #podcasts
-    {name: 'Full Stack Radio #30 (11-23-2015)', group: 'podcasts', link: 'http://www.fullstackradio.com/30'}, 
-    {name: 'JavaScript Jabber #187 (11-25-2015)', group: 'podcasts', link: 'https://devchat.tv/js-jabber/187-jsj-vue-js-with-evan-you'}, 
-    {name: 'Changelog #184 (11-27-2015)', group: 'podcasts', link: 'https://changelog.com/184/'}, 
-    {name: 'Software Engineering Daily (12-29-2015)', group: 'podcasts', link: 'http://softwareengineeringdaily.com/2015/12/29/front-end-javascript-with-evan-you/'}, 
-    {name: 'Javascript Air 016 (03-30-2016)', group: 'podcasts', link: 'https://javascriptair.com/episodes/2016-03-30/'}, 
-    {name: 'Codecasts #2 - Falando Sobre Vuejs e Web Components (2016-08-19) [pt-BR]', group: 'podcasts', link: 'https://soundcloud.com/codecasts/2-falando-sobre-vuejs-e-web-components'}, 
-    {name: 'Full Stack Radio #50 (09-21-2016)', group: 'podcasts', link: 'http://www.fullstackradio.com/50'}, 
-    {name: '和 Vue.js 框架的作者聊聊前端框架开发背后的故事 [zh-CN]', group: 'podcasts', link: 'http://teahour.fm/2015/08/16/vuejs-creator-evan-you.html'}, 
-    {name: 'MW S04E08 - Vue.js with Evan You and Sarah Drasner (04-27-2017)', group: 'podcasts', link: 'https://modernweb.podbean.com/e/mw-s04e09-evan-yu-sarah-drasner/'}, 
-    {name: 'Request For Commits #12 - Crowdfunding Open Source (Vue.js) (06-15-2017)', group: 'podcasts', link: 'https://changelog.com/rfc/12'}, 
-    {name: 'The Web Platform Podcast 132: Vue.js (07-27-2017)', group: 'podcasts', link: 'http://thewebplatformpodcast.com/132-vuejs'}, 
-    {name: 'JavaScript Jabber #276 with Maximilian Schwarzmüller (08-29-2017)', group: 'podcasts', link: 'https://devchat.tv/js-jabber/jsj-276-vue-js-maximilian-schwarzmuller'}, 
-  
-    // #official-examples
-    {name: 'Basic Examples', group: 'official-examples', link: 'http://vuejs.org/guide/'}, 
-    {name: 'Vue.js TodoMVC', group: 'official-examples', link: 'https://github.com/vuejs/vue/tree/dev/examples/todomvc'}, 
-    {name: 'CoffeeScript Version', group: 'official-examples', link: 'https://github.com/anfelor/TodoMVC-CoffeeScript-and-Vue.js'}, 
-    {name: 'Vue.js HackerNews Clone', group: 'official-examples', link: 'https://github.com/vuejs/vue-hackernews'}, 
-    {name: 'Vue.js 2.0 HackerNews Clone', group: 'official-examples', link: 'https://github.com/vuejs/vue-hackernews-2.0'}, 
-    
-    // #books
-    {name: 'The Majesty Of Vue.js', group: 'books', link: 'https://www.packtpub.com/web-development/majesty-vuejs', author: 'Alex Kyriakidis & Kostas Maniatis, Packt. (Nov 2016'}, 
-    {name: 'Learning Vue.js 2', group: 'books', link: 'https://www.packtpub.com/web-development/learning-vuejs-2', author: 'Olga Filipova, Packt. (Dec 2016'}, 
-    {name: 'The Majesty Of Vue.js 2', group: 'books', link: 'https://leanpub.com/vuejs2', author: 'Alex Kyriakidis and Kostas Maniatis, Leanpub. (Mar 2017'}, 
-    {name: 'Vue.js 2 Cookbook', group: 'books', link: 'https://www.packtpub.com/web-development/vuejs-2-cookbook', author: 'Andrea Passaglia, Packt. (May 2017'}, 
-    {name: 'Vue.js in Action', group: 'books', link: 'https://www.manning.com/books/vue-js-in-action', author: 'Erik Hanchett and Benjamin Listwon (Spring 2018'}, 
-
-    // #commercial-products
-    {name: 'Wijmo', group: 'commercial-products', link: 'http://wijmo.com/products/wijmo-5/', description: 'A collection of UI controls with VueJS support.'}, 
-    {name: 'Collate Notes', group: 'commercial-products', link: 'http://www.collatenotes.com/'}, 
-    {name: 'Formester', group: 'commercial-products', link: 'https://www.formester.com/', description: 'Form, email marketing automation made easy'}, 
-    {name: 'ChatWoot', group: 'commercial-products', link: 'https://www.chatwoot.com/', description: 'Livechat and agent collaboration over facebook messenger.'}, 
-
     // #tutorials
     {name: 'Vue.js screencasts', group: 'tutorials', link: 'https://laracasts.com/series/learn-vue-2-step-by-step', author: 'Laracasts'}, 
     {name: 'What\'s New in Vue.js 1.0', group: 'tutorials', link: 'http://www.sitepoint.com/whats-new-in-vue-js-1-0/', author: 'Sitepoint'}, 
@@ -161,43 +90,5 @@ export default {
     {name: 'Creating Custom Vue.js Plugins] (https://alligator.io/vuejs/creating-custom-plugins/'}, 
     {name: 'Async in VueJS part 1', group: 'tutorials', link: 'https://medium.com/js-dojo/async-in-vue-js-part-1-28d96f751a2e'}, 
     {name: 'Async in VueJS part 2', group: 'tutorials', link: 'https://medium.com/js-dojo/async-in-vuejs-part-2-45e81c836e38'}, 
-
-    // #examples    
-    {name: 'Starter Application with JWT Auth + sample backend API in Laravel', group: 'examples', link: 'http://forum.vuejs.org/topic/39/starter-application-with-jwt-auth-sample-backend-api'}, 
-    {name: 'Node Webkit + Vue example', group: 'examples', link: 'https://github.com/brandonjpierce/node-webkit-boilerplate', author: '@ brandonjpierce'},
-    {name: 'Vue Samples', group: 'examples', link: 'https://github.com/superlloyd/VueSamples', author: '@ superlloyd'},
-    {name: 'HackerNews clone with vue.js + vue-router', group: 'examples', link: 'https://github.com/kazupon/vue-router-hackernews', author: '@ kazupon'},
-    {name: 'Electron + Vue example', group: 'examples', link: 'https://github.com/bradstewart/electron-boilerplate-vue', author: '@ bradstewart'},
-    {name: 'Single page application example (Vue + Voie)', group: 'examples', link: 'https://github.com/inca/voie-example', author: 'Boris Okunskiy'}, 
-    {name: 'Begin - Task Manager SPA written in Vue + Lumen', group: 'examples', link: 'https://github.com/rajabishek/begin', author: 'Raj Abishek'}, 
-    {name: 'Vue Mini Shop', group: 'examples', link: 'https://github.com/BosNaufal/vue-mini-shop', author: 'BosNaufal'}, 
-    {name: 'Vue SoundCloud', group: 'examples', link: 'https://github.com/mul14/vue-soundcloud', author: 'mul14'}, 
-    {name: 'Feature Requests (Laravel + Vue Combo)', group: 'examples', link: 'https://github.com/haydenbbickerton/feature-requests-app', author: 'haydenbbickerton'}, 
-    {name: 'Vue Cookbook (Vue1.0 + express)', group: 'examples', link: 'https://github.com/yjj5855/node-vue-server-webpack', author: '@yjj5855', description: 'A demo first screen rendering of a service'},
-    {name: 'Strong Together', group: 'examples', link: 'https://github.com/websemantics/strong-together', description: 'A starter project to build single page Vue.js apps as stand-alone or for Laravel / Laravel Spark projects, based on Browserify and Semantic-ui', author: 'WebSemantics'}, 
-    {name: 'vuetest: an ad admin web with user auth, bootstrap ui, uploader, WYSIWYG editor in iframe', group: 'examples', link: 'https://github.com/sjerrys/vuetest'}, 
-    {name: 'vue-shopping', group: 'examples', link: 'https://github.com/andylei18/vue-shopping', author: 'andylei18'}, 
-    {name: 'Vue-cnodejs,060', group: 'examples', link: 'https://github.com/shinygang/Vue-cnodejs', author: 'shinygang'}, 
-    {name: 'vue-zhihu-daily', group: 'examples', link: 'https://github.com/hilongjw/vue-zhihu-daily', author: 'hilongjw'}, 
-    {name: 'jwt-example', group: 'examples', link: 'https://github.com/PetervMeijgaard/jwt-example', author: 'petervmeijgaard'}, 
-    {name: 'VueChess', group: 'examples', link: 'https://github.com/gustaYo/vue-chess', description: 'Multiplayer online chess game', author: 'gustaYo'}, 
-    {name: 'Ngexplorer-vuejs-client', group: 'examples', link: 'https://github.com/gustaYo/ngexplorer-vuejs-client', author: 'Vue client for [Ngexplorer]', author: 'gustaYo'}, 
-    {name: 'Vue 2048 (Vue + Webpack)', group: 'examples', link: 'https://pengfu.github.io/vue-2048/', author: '@pengfu', description: 'Popular 2048-Game implemented using Vue,Webpack,Sass,ES6'}, 
-    {name: 'Vue Simple PWA', group: 'examples', link: 'https://github.com/BosNaufal/vue-simple-pwa', author: 'BosNaufal'}, 
-    {name: 'Tour of Heroes (Vue 2.0)', group: 'examples', link: 'https://github.com/aweber1/tour-of-heroes-vue2', description: 'A Vue 2.0 port of the Angular 2.0 [Tour of Heroes] demo app. Highlights: ES6/7, render functions, JSX, revue, vue-router, Airbnb eslint, webpack', author: '@aweber1'}, 
-    {name: 'vue-table-pagination', group: 'examples', link: 'https://github.com/echoVic/vue-table-pagination', description: 'A table with pagination', author: 'echovic'}, 
-    {name: 'Feathers and Vue 2.0 Blog Admin Demo', group: 'examples', link: 'https://github.com/delay/feathers-vue-blog-admin-demo', description: 'Demo for using Feathers with Vue 2.0. It includes authentication, vue-router, vue-infinite-loading and roles', author: 'delay'}, 
-    {name: 'vue-zhihudaily-2.0', group: 'examples', link: 'https://github.com/cs1707/vue-zhihudaily-2.0', description: 'Zhihudaily demo built with Vue 2.0, vue-router & vuex, with server-side rendering', author: 'cs1707'}, 
-    {name: 'vue-demo-todolist', group: 'examples', link: 'https://github.com/fishenal/Todos_Vuejs', description: 'a simply vue2.0 demo built with Vue 2.0, vue-cli', author: 'fishenal'}, 
-    {name: 'vue-AdminLte', group: 'examples', link: 'https://github.com/liujians/vue-adminLte-vue-router', author: 'liujians'}, 
-    {name: 'Vue(2.0)+ Node.js: A blog content manage system (CMS)', group: 'examples', link: 'https://github.com/ycwalker/CMS-of-Blog', author: '@ ycwalker'},
-    {name: 'ngexplorer-quasar', group: 'examples', link: 'https://github.com/gustaYo/ngexplorer-quasar', description: 'Implementation of Ngexplorer with quasar framework', author: 'gustaYo'}, 
-    {name: 'zhihu-daily-vue', group: 'examples', link: 'https://github.com/moonou/zhihu-daily-vue', description: 'a zhihu daily base on vue2.0', author: 'moonou'}, 
-    {name: 'loopback-vue', group: 'examples', link: 'https://github.com/qxl1231/generator-loopback-vue', description: 'loopback+vue+vue-resource,ionic-app,vue page分页功能,authenticate 权限控制,accesstoken机制,credentials,CI,docker', author: 'qxl1231'}, 
-    {name: 'vue-s3-dropzone', group: 'examples', link: 'https://github.com/kfei/vue-s3-dropzone', description: 'A Vue.js drag-and-drop component uploads files to AWS S3 serverlessly'}, 
-    {name: 'easy-vue', group: 'examples', link: 'https://github.com/TIGERB/easy-vue', description: 'a easy example using the vue to implement easy web with vue 2.0', author: 'TIGERB'}, 
-    {name: 'Vuex Events Messaging Demo', group: 'examples', link: 'https://github.com/metricloop/vuex-events-messaging-demo', author: 'Metric Loop'}, 
-    {name: 'vue-memo', group: 'examples', link: 'https://github.com/akifo/vue-memo', description: 'a simple demo build with Vue.js(>2.x.)', author: 'akifo'}, 
-    {name: 'Resume Vue', group: 'examples', link: 'https://github.com/ChangJoo-Park/Resume-Vue', description: 'JSON based Resume based on Vue 2.0', author: 'ChangJoo Park'}, 
   ]
 }

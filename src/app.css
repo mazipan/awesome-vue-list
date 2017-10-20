@@ -1,0 +1,13 @@
+.z{
+  color: #00d1b2;
+}
+
+.item{
+  line-height: 1;
+}
+.item__block{
+  padding: 5px 0;
+}
+.tag{
+  text-transform: lowercase;
+}
