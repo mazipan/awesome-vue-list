@@ -8,6 +8,7 @@ import parallaxs from './item-parallaxs.js'
 import icons from './item-icons.js'
 import menus from './item-menus.js'
 import carousels from './item-carousels.js'
+import charts from './item-charts.js'
 
 export default {
   items: loaders['items']
@@ -20,5 +21,6 @@ export default {
           .concat(icons['items'])
           .concat(menus['items'])
           .concat(carousels['items'])
+          .concat(charts['items'])
 
 }
