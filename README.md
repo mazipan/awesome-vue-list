@@ -5,7 +5,7 @@
 [![GitHub Fork](https://img.shields.io/github/forks/mazipan/awesome-vue-list.svg?maxAge=3600)](https://github.com/mazipan/awesome-vue-list/network/members) 
 [![GitHub Star](https://img.shields.io/github/stars/mazipan/awesome-vue-list.svg?maxAge=3600)](https://github.com/mazipan/awesome-vue-list/stargazers) 
 
-## A curated list of awesome things related to Vue.js base on awesome-vue repository
+## A curated list of awesome things related to Vue.js based on awesome-vue repository
 
 <p align="center">
   <br>
