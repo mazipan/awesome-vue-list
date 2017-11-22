@@ -12,7 +12,7 @@
           awesome-vue-list
         </h1>
         <h2 class="subtitle">
-          A curated list of awesome things related to Vue.js base on awesome-vue repository
+          A curated list of awesome things related to Vue.js based on awesome-vue repository
         </h2>
         <a class="button is-primary is-inverted is-outlined" 
             href="https://github.com/mazipan/awesome-vue-list/issues/new">
