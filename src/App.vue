@@ -24,7 +24,7 @@
 
     <div class="container is-fluid" style="margin-top: 20px;">
       
-      <div class="columns is-centered">
+      <section class="columns is-centered">
         <div class="column is-8">
 
           <div class="control has-icons-right">
@@ -43,18 +43,18 @@
           </div>
       
         </div>
-      </div>
+      </section>
 
-      <div class="columns is-centered">
-        <div class="column item" v-for="item in filteredList" :key="item.name">
-          <div class="item__block">
+      <section class="columns is-centered item">
+        <div class="tile is-child notification is-warning" v-for="item in filteredList" :key="item.name">
+          
+          <div class="item__block title">
             <a :href="item.link" v-if="item.link" target="_blank">
-              <i class="fa fa-github"></i>&nbsp;
+              <i class="fa fa-github"></i>
             </a>
-            
             <span v-html="highlightText(item.name, searchText)"></span>
           </div>
-          
+
           <div v-html="highlightText(item.description, searchText)" v-if="item.description"></div>
           
           <div class="tags" v-if="item.group">
@@ -64,9 +64,10 @@
             <span class="tag is-info">
               {{item.groupName}}
             </span>
-          </div>          
+          </div>   
+
         </div>
-      </div>
+      </section>
     </div>
   </div>
 </template>

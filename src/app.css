@@ -4,9 +4,17 @@
 
 .item{
   line-height: 1;
+  flex-direction: column;
+}
+.item .tile{
+  margin: .5em !important;
 }
 .item__block{
   padding: 5px 0;
+  display: block;
+}
+.item__block a {
+  text-decoration: none;
 }
 .tag{
   text-transform: lowercase;
