@@ -45,8 +45,8 @@
         </div>
       </div>
 
-      <div class="columns is-centered" v-for="item in filteredList" :key="item.name">
-        <div class="column is-8 item">
+      <div class="columns is-centered">
+        <div class="column item" v-for="item in filteredList" :key="item.name">
           <div class="item__block">
             <a :href="item.link" v-if="item.link" target="_blank">
               <i class="fa fa-github"></i>&nbsp;
@@ -54,6 +54,7 @@
             
             <span v-html="highlightText(item.name, searchText)"></span>
           </div>
+          
           <div v-html="highlightText(item.description, searchText)" v-if="item.description"></div>
           
           <div class="tags" v-if="item.group">

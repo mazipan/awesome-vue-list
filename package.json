@@ -23,20 +23,20 @@
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.6.1",
     "compression-webpack-plugin": "^1.0.1",
-    "cross-env": "^5.0.5",
+    "cross-env": "^5.1.1",
     "css-loader": "^0.28.7",
-    "eslint": "^4.9.0",
+    "eslint": "^4.13.1",
     "eslint-plugin-vue": "3.13.0",
     "file-loader": "^1.1.5",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
-    "vue": "^2.5.2",
-    "vue-loader": "^13.3.0",
-    "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.7.1",
-    "webpack-dev-server": "^2.9.2"
+    "vue": "^2.5.10",
+    "vue-loader": "^13.5.0",
+    "vue-template-compiler": "^2.5.10",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   },
   "eslintConfig": {
     "extends": [
